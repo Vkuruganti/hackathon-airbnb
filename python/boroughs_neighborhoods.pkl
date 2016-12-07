@@ -1,0 +1,433 @@
+(dp0
+S'Bronx'
+p1
+(lp2
+S'Hunts Point'
+p3
+aS'Pelham Bay'
+p4
+aS'Co-op City'
+p5
+aS'Allerton'
+p6
+aS'Belmont'
+p7
+aS'Clason Point'
+p8
+aS'Van Nest'
+p9
+aS'Tremont'
+p10
+aS'Pelham Gardens'
+p11
+aS'Norwood'
+p12
+aS'North Riverdale'
+p13
+aS'Mount Hope'
+p14
+aS'Wakefield'
+p15
+aS'Highbridge'
+p16
+aS'Fieldston'
+p17
+aS'Unionport'
+p18
+aS'Concourse Village'
+p19
+aS'Claremont Village'
+p20
+aS'Fordham'
+p21
+aS'Olinville'
+p22
+aS'Spuyten Duyvil'
+p23
+aS'Mott Haven'
+p24
+aS'Longwood'
+p25
+aS'West Farms'
+p26
+aS'Concourse'
+p27
+aS'Parkchester'
+p28
+aS'Port Morris'
+p29
+aS'Morris Heights'
+p30
+aS'Kingsbridge'
+p31
+aS'Williamsbridge'
+p32
+aS'East Morrisania'
+p33
+aS'Riverdale'
+p34
+aS'Morrisania'
+p35
+aS'Morris Park'
+p36
+aS'Throgs Neck'
+p37
+aS'Baychester'
+p38
+aS'Soundview'
+p39
+aS'Eastchester'
+p40
+aS'Schuylerville'
+p41
+aS'Mount Eden'
+p42
+aS'Edenwald'
+p43
+aS'Bronxdale'
+p44
+aS'University Heights'
+p45
+aS'Melrose'
+p46
+aS'Woodlawn'
+p47
+aS'City Island'
+p48
+asS'Brooklyn'
+p49
+(lp50
+S'Carroll Gardens'
+p51
+aS'Flatbush'
+p52
+aS'Prospect Heights'
+p53
+aS'Crown Heights'
+p54
+aS'Dyker Heights'
+p55
+aS'Gravesend'
+p56
+aS'South Slope'
+p57
+aS'Borough Park'
+p58
+aS'Sea Gate'
+p59
+aS'Williamsburg'
+p60
+aS'Bath Beach'
+p61
+aS'Cypress Hills'
+p62
+aS'Sheepshead Bay'
+p63
+aS'Brownsville'
+p64
+aS'Gerritsen Beach'
+p65
+aS'East New York'
+p66
+aS'Kensington'
+p67
+aS'Bay Ridge'
+p68
+aS'Bedford-Stuyvesant'
+p69
+aS'Midwood'
+p70
+aS'Windsor Terrace'
+p71
+aS'Brighton Beach'
+p72
+aS'Brooklyn Heights'
+p73
+aS'Downtown Brooklyn'
+p74
+aS'Canarsie'
+p75
+aS'Park Slope'
+p76
+aS'Fort Hamilton'
+p77
+aS'Boerum Hill'
+p78
+aS'Manhattan Beach'
+p79
+aS'Columbia St'
+p80
+aS'Fort Greene'
+p81
+aS'Gowanus'
+p82
+aS'Greenpoint'
+p83
+aS'Sunset Park'
+p84
+aS'East Flatbush'
+p85
+aS'Bushwick'
+p86
+aS'Vinegar Hill'
+p87
+aS'Navy Yard'
+p88
+aS'Mill Basin'
+p89
+aS'Prospect-Lefferts Gardens'
+p90
+aS'Flatlands'
+p91
+aS'Coney Island'
+p92
+aS'Red Hook'
+p93
+aS'Cobble Hill'
+p94
+aS'Bergen Beach'
+p95
+aS'Clinton Hill'
+p96
+aS'DUMBO'
+p97
+aS'Bensonhurst'
+p98
+asS'Staten Island'
+p99
+(lp100
+S'Shore Acres'
+p101
+aS'New Springville'
+p102
+aS'Great Kills'
+p103
+aS'Arden Heights'
+p104
+aS'Concord'
+p105
+aS'New Brighton'
+p106
+aS'Todt Hill'
+p107
+aS'Oakwood'
+p108
+aS'Howland Hook'
+p109
+aS'Randall Manor'
+p110
+aS'Castleton Corners'
+p111
+aS'Clifton'
+p112
+aS'West Brighton'
+p113
+aS'Dongan Hills'
+p114
+aS'Tottenville'
+p115
+aS'New Dorp Beach'
+p116
+aS'Lighthouse Hill'
+p117
+aS'Arrochar'
+p118
+aS'St. George'
+p119
+aS'Eltingville'
+p120
+aS'Midland Beach'
+p121
+aS'South Beach'
+p122
+aS'Westerleigh'
+p123
+aS'Tompkinsville'
+p124
+aS'Grymes Hill'
+p125
+aS'Port Richmond'
+p126
+aS'Stapleton'
+p127
+aS'Emerson Hill'
+p128
+aS'Silver Lake'
+p129
+aS'Graniteville'
+p130
+aS'Woodrow'
+p131
+aS'Mariners Harbor'
+p132
+asS'Manhattan'
+p133
+(lp134
+S'Roosevelt Island'
+p135
+aS'Civic Center'
+p136
+aS'Stuyvesant Town'
+p137
+aS"Hell's Kitchen"
+p138
+aS'Greenwich Village'
+p139
+aS'Financial District'
+p140
+aS'Battery Park City'
+p141
+aS'SoHo'
+p142
+aS'Kips Bay'
+p143
+aS'Two Bridges'
+p144
+aS'Upper West Side'
+p145
+aS'East Village'
+p146
+aS'NoHo'
+p147
+aS'Chelsea'
+p148
+aS'West Village'
+p149
+aS'Washington Heights'
+p150
+aS'Theater District'
+p151
+aS'Inwood'
+p152
+aS'Gramercy'
+p153
+aS'Marble Hill'
+p154
+aS'Little Italy'
+p155
+aS'Chinatown'
+p156
+aS'Nolita'
+p157
+aS'Lower East Side'
+p158
+aS'East Harlem'
+p159
+aS'Flatiron District'
+p160
+aS'Harlem'
+p161
+aS'Midtown'
+p162
+aS'Tribeca'
+p163
+aS'Morningside Heights'
+p164
+aS'Upper East Side'
+p165
+aS'Murray Hill'
+p166
+asS'Queens'
+p167
+(lp168
+S'Bay Terrace'
+p169
+aS'Astoria'
+p170
+aS'Kew Gardens Hills'
+p171
+aS'Whitestone'
+p172
+aS'Ridgewood'
+p173
+aS'Jamaica'
+p174
+aS'Neponsit'
+p175
+aS'Ozone Park'
+p176
+aS'Long Island City'
+p177
+aS'Woodside'
+p178
+aS'Middle Village'
+p179
+aS'Glendale'
+p180
+aS'Ditmars Steinway'
+p181
+aS'Laurelton'
+p182
+aS'Sunnyside'
+p183
+aS'Belle Harbor'
+p184
+aS'Hollis Hills'
+p185
+aS'Edgemere'
+p186
+aS'Holliswood'
+p187
+aS'College Point'
+p188
+aS'Far Rockaway'
+p189
+aS'Elmhurst'
+p190
+aS'Fresh Meadows'
+p191
+aS'Kew Gardens'
+p192
+aS'Glen Oaks'
+p193
+aS'Cambria Heights'
+p194
+aS'Woodhaven'
+p195
+aS'Maspeth'
+p196
+aS'Bayswater'
+p197
+aS'Arverne'
+p198
+aS'Bayside'
+p199
+aS'Richmond Hill'
+p200
+aS'East Elmhurst'
+p201
+aS'Little Neck'
+p202
+aS'Rosedale'
+p203
+aS'St. Albans'
+p204
+aS'South Ozone Park'
+p205
+aS'Briarwood'
+p206
+aS'Rego Park'
+p207
+aS'Rockaway Beach'
+p208
+aS'Hollis'
+p209
+aS'Howard Beach'
+p210
+aS'Corona'
+p211
+aS'Jamaica Estates'
+p212
+aS'Forest Hills'
+p213
+aS'Queens Village'
+p214
+aS'Springfield Gardens'
+p215
+aS'Bellerose'
+p216
+aS'Flushing'
+p217
+aS'Jackson Heights'
+p218
+as.
