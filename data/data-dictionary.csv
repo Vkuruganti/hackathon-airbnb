@@ -1,0 +1,12 @@
+Column,Type,Null,Partition Key,Comment
+id_visitor,varchar,True,False,id of the visitor
+id_session,varchar,True,False,id of the session
+dim_session_number,bigint,True,False,the number of session on a given day for a visitor
+dim_user_agent,varchar,True,False,user agent of the session
+dim_device_app_combo,varchar,True,False,parsed out device/app combo from user agent
+ds,varchar,True,False,date stamp of session
+ts_min,varchar,True,False,time of session start
+ts_max,varchar,True,False,time of session end
+did_search,bigint,True,False,binary flag indicating if the visitor performed a search during the session
+sent_message,bigint,True,False,binary flag indicating if the visitor sent a message during the session
+sent_booking_request,bigint,True,False,binary flag indicating if the visitor sent a booking request during the session
