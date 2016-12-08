@@ -2,7 +2,11 @@ import flask
 import pickle
 import pandas as pd
 import numpy as np
+import flask_cors as cors
 app = flask.Flask(__name__)
+cors.CORS(app)
+
+# pip install pandas numpy scikit-learn
 
 with open("n_ranks.pkl", "r") as p:
     n_ranks = pickle.load(p)
@@ -74,6 +78,10 @@ def convert_out(borough, neighbourhood, accommodates, bedrooms, room_type):
             key_name = i + "_" + ref[sample_out[i][0]].replace(" ", "_")
             final_out[key_name] = sample_out[i][1]
     return final_out
+
+@app.route("/")
+def hello_world():
+    return flask.jsonify({"json":True})
 
 @app.route("/boroughs_neighborhoods")
 def boroughs():
