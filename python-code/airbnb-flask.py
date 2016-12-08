@@ -30,26 +30,34 @@ def unconvert_nb(borough, num):
     ref = {ref[k]:k for k in ref}
     return ref[num]
 
-def gen_output(borough, neighbourhood, room_type, accommodates, bedrooms):
-    old_input = [neighbourhood, accommodates, bedrooms, room_type]
+def gen_output(borough, neighbourhood, accommodates, bedrooms, room_type):
+    features = ["neighbourhood", "accommodates", "bedrooms","room_type"]
+    X = [neighbourhood, accommodates, bedrooms, room_type]
     model = model_list[borough]
 
-    original = model.predict(np.array(old_input).reshape(1,-1))[0]
+    old_input = pd.DataFrame(X).T
+    old_input.columns = features
+    original = round(model.predict(old_input)[0],2)
 
-    change_list = ["neighbourhood", "accommodates", "bedrooms", "room_type"]
+
     out = {}
     out["original"] = original
-    for i,a in enumerate(change_list):
+    for i,a in enumerate(features):
+        new_input = old_input.copy()
         if a != "accommodates":
-            new_input = [k if i!=j else k-1 if k-1>= 0 else k for j,k in enumerate(old_input)]
+            if new_input.loc[0, a]-1 >= 0:
+                new_input.loc[0, a] = new_input.loc[0, a]-1
         else:
-            new_input = [k if i!=j else k-1 if k-1 > 0 else k for j,k in enumerate(old_input)]
+            if new_input.loc[0,a]-1 > 0:
+                new_input.loc[0, a] = new_input.loc[0, a]-1
 #         print new_input
-        out[a] = [new_input[i], model.predict(np.array(new_input).reshape(1,-1))[0]]
+        out[a] = [new_input.loc[0,a], round(model.predict(new_input)[0],2)]
     return out
 
-def convert_out(borough, sample_out):
+def convert_out(borough, neighbourhood, accommodates, bedrooms, room_type):
+    sample_out = gen_output(borough, neighbourhood, accommodates, bedrooms, room_type)
     final_out = {}
+    features = ["borough", "neighbourhood", "accommodates", "bedrooms", "room_type"]
     sample_out_list = [i for i in sample_out.keys()]
     for i in sample_out_list:
         if i == "original":
@@ -97,11 +105,13 @@ def result():
         neighbourhood = convert_nb(borough, neighbourhood)
         room_type = room_types[room_type]
         accommodates = int(accommodates)
-        bedrooms = int(accommodates)
+        bedrooms = int(bedrooms)
 
-        results = gen_output(borough, neighbourhood, accommodates, bedrooms, room_type)
-        results = convert_out(borough, results)
-        return flask.jsonify(results)
+
+
+        results = convert_out(borough, neighbourhood, accommodates, bedrooms, room_type)
+        out = {"Inputs": inputs, "Results": results}
+        return flask.jsonify(out)
 
 if __name__ == "__main__":
     '''Connects to the server'''

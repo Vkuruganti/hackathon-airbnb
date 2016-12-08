@@ -21,7 +21,7 @@ F10.0
 tp8
 sS'fit_intercept'
 p9
-I00
+I01
 sS'gcv_mode'
 p10
 NsS'alpha_'
@@ -61,7 +61,7 @@ I-1
 I0
 tp25
 bI00
-S"\xcf\xd3\x95\xe4$I\xed?\x00\xe9\x86\xff~\x0e9@\xd0\x84\xf2\xa2Y\x061@H\x92\x99d\\\x19'@"
+S"QU\xfbC&;\x14@M\x15\x98\xbar|8@\xd5\xbc@\xf8'zQ@\x12\xe6\x19\x86\xe3\xd1K@"
 p26
 tp27
 bsS'_sklearn_version'
@@ -75,8 +75,15 @@ sS'scoring'
 p31
 NsS'intercept_'
 p32
-F0.0
-sS'cv'
+cnumpy.core.multiarray
+scalar
 p33
+(g23
+S'\x8e\xd2\xec\x98\x14 ]\xc0'
+p34
+tp35
+Rp36
+sS'cv'
+p37
 I5
 sb.
