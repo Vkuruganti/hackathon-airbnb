@@ -1,0 +1,11 @@
+(dp0
+S'Entire home/apt'
+p1
+I2
+sS'Shared room'
+p2
+I0
+sS'Private room'
+p3
+I1
+s.

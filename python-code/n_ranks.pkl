@@ -1,0 +1,641 @@
+(dp0
+S'Bronx'
+p1
+(dp2
+S'Port Morris'
+p3
+I29
+sS'Edenwald'
+p4
+I45
+sS'Baychester'
+p5
+I12
+sS'Pelham Bay'
+p6
+I7
+sS'Fieldston'
+p7
+I26
+sS'Mount Eden'
+p8
+I4
+sS'Mount Hope'
+p9
+I30
+sS'Clason Point'
+p10
+I15
+sS'Concourse'
+p11
+I37
+sS'Melrose'
+p12
+I33
+sS'Unionport'
+p13
+I36
+sS'Olinville'
+p14
+I41
+sS'Allerton'
+p15
+I5
+sS'Bronxdale'
+p16
+I31
+sS'West Farms'
+p17
+I3
+sS'Mott Haven'
+p18
+I16
+sS'Riverdale'
+p19
+I34
+sS'Parkchester'
+p20
+I32
+sS'North Riverdale'
+p21
+I18
+sS'Morrisania'
+p22
+I14
+sS'Kingsbridge'
+p23
+I19
+sS'Morris Heights'
+p24
+I1
+sS'Concourse Village'
+p25
+I35
+sS'Morris Park'
+p26
+I44
+sS'Woodlawn'
+p27
+I23
+sS'Norwood'
+p28
+I22
+sS'Wakefield'
+p29
+I39
+sS'Williamsbridge'
+p30
+I21
+sS'Throgs Neck'
+p31
+I38
+sS'Longwood'
+p32
+I28
+sS'Claremont Village'
+p33
+I24
+sS'Soundview'
+p34
+I0
+sS'East Morrisania'
+p35
+I8
+sS'Tremont'
+p36
+I10
+sS'Pelham Gardens'
+p37
+I11
+sS'University Heights'
+p38
+I6
+sS'Fordham'
+p39
+I13
+sS'City Island'
+p40
+I43
+sS'Eastchester'
+p41
+I20
+sS'Highbridge'
+p42
+I17
+sS'Belmont'
+p43
+I42
+sS'Van Nest'
+p44
+I2
+sS'Co-op City'
+p45
+I27
+sS'Spuyten Duyvil'
+p46
+I40
+sS'Hunts Point'
+p47
+I9
+sS'Schuylerville'
+p48
+I25
+ssS'Brooklyn'
+p49
+(dp50
+S'Columbia St'
+p51
+I28
+sS'Greenpoint'
+p52
+I29
+sS'Gerritsen Beach'
+p53
+I46
+sS'Coney Island'
+p54
+I22
+sS'Bath Beach'
+p55
+I14
+sS'East New York'
+p56
+I16
+sS'Cypress Hills'
+p57
+I3
+sS'Cobble Hill'
+p58
+I43
+sS'Williamsburg'
+p59
+I26
+sS'Prospect-Lefferts Gardens'
+p60
+I21
+sS'Sea Gate'
+p61
+I27
+sS'Crown Heights'
+p62
+I18
+sS'Bensonhurst'
+p63
+I7
+sS'Windsor Terrace'
+p64
+I34
+sS'Flatbush'
+p65
+I12
+sS'Mill Basin'
+p66
+I23
+sS'Clinton Hill'
+p67
+I31
+sS'Bedford-Stuyvesant'
+p68
+I20
+sS'Gravesend'
+p69
+I6
+sS'Gowanus'
+p70
+I38
+sS'Vinegar Hill'
+p71
+I45
+sS'Canarsie'
+p72
+I24
+sS'Fort Hamilton'
+p73
+I17
+sS'Sunset Park'
+p74
+I10
+sS'Park Slope'
+p75
+I41
+sS'Flatlands'
+p76
+I15
+sS'Kensington'
+p77
+I9
+sS'Prospect Heights'
+p78
+I30
+sS'Downtown Brooklyn'
+p79
+I32
+sS'Boerum Hill'
+p80
+I36
+sS'Dyker Heights'
+p81
+I5
+sS'Bergen Beach'
+p82
+I0
+sS'East Flatbush'
+p83
+I13
+sS'Bay Ridge'
+p84
+I19
+sS'DUMBO'
+p85
+I47
+sS'Brownsville'
+p86
+I2
+sS'Navy Yard'
+p87
+I40
+sS'Bushwick'
+p88
+I8
+sS'Brighton Beach'
+p89
+I25
+sS'Red Hook'
+p90
+I33
+sS'Brooklyn Heights'
+p91
+I44
+sS'Carroll Gardens'
+p92
+I42
+sS'Fort Greene'
+p93
+I37
+sS'Borough Park'
+p94
+I1
+sS'Sheepshead Bay'
+p95
+I4
+sS'Midwood'
+p96
+I11
+sS'Manhattan Beach'
+p97
+I35
+sS'South Slope'
+p98
+I39
+ssS'Staten Island'
+p99
+(dp100
+S'Oakwood'
+p101
+I21
+sS'Mariners Harbor'
+p102
+I18
+sS'Woodrow'
+p103
+I30
+sS'Grymes Hill'
+p104
+I19
+sS'Port Richmond'
+p105
+I28
+sS'Castleton Corners'
+p106
+I1
+sS'Emerson Hill'
+p107
+I15
+sS'Arden Heights'
+p108
+I0
+sS'Westerleigh'
+p109
+I31
+sS'Tottenville'
+p110
+I27
+sS'Tompkinsville'
+p111
+I5
+sS'Dongan Hills'
+p112
+I25
+sS'Todt Hill'
+p113
+I29
+sS'Randall Manor'
+p114
+I6
+sS'New Dorp Beach'
+p115
+I14
+sS'Shore Acres'
+p116
+I24
+sS'Lighthouse Hill'
+p117
+I26
+sS'Stapleton'
+p118
+I7
+sS'Great Kills'
+p119
+I17
+sS'Silver Lake'
+p120
+I22
+sS'West Brighton'
+p121
+I12
+sS'Eltingville'
+p122
+I10
+sS'Concord'
+p123
+I3
+sS'Midland Beach'
+p124
+I13
+sS'Clifton'
+p125
+I2
+sS'Graniteville'
+p126
+I20
+sS'New Brighton'
+p127
+I9
+sS'Howland Hook'
+p128
+I8
+sS'New Springville'
+p129
+I4
+sS'St. George'
+p130
+I11
+sS'Arrochar'
+p131
+I23
+sS'South Beach'
+p132
+I16
+ssS'Manhattan'
+p133
+(dp134
+S'Lower East Side'
+p135
+I10
+sS'Little Italy'
+p136
+I11
+sS'Upper East Side'
+p137
+I12
+sS'Flatiron District'
+p138
+I29
+sS'West Village'
+p139
+I28
+sS'Morningside Heights'
+p140
+I3
+sS'Upper West Side'
+p141
+I13
+sS'East Harlem'
+p142
+I6
+sS'Inwood'
+p143
+I1
+sS'Greenwich Village'
+p144
+I24
+sS'Gramercy'
+p145
+I17
+sS'Stuyvesant Town'
+p146
+I9
+sS'Marble Hill'
+p147
+I4
+sS'Chelsea'
+p148
+I23
+sS'SoHo'
+p149
+I27
+sS'NoHo'
+p150
+I30
+sS'Tribeca'
+p151
+I31
+sS'Financial District'
+p152
+I20
+sS'Theater District'
+p153
+I25
+sS'Chinatown'
+p154
+I8
+sS'Midtown'
+p155
+I22
+sS'Kips Bay'
+p156
+I18
+sS"Hell's Kitchen"
+p157
+I16
+sS'Roosevelt Island'
+p158
+I2
+sS'Harlem'
+p159
+I5
+sS'Washington Heights'
+p160
+I0
+sS'Two Bridges'
+p161
+I7
+sS'Civic Center'
+p162
+I15
+sS'Murray Hill'
+p163
+I19
+sS'Battery Park City'
+p164
+I26
+sS'East Village'
+p165
+I14
+sS'Nolita'
+p166
+I21
+ssS'Queens'
+p167
+(dp168
+S'Ozone Park'
+p169
+I25
+sS'Bayside'
+p170
+I27
+sS'Sunnyside'
+p171
+I28
+sS'Springfield Gardens'
+p172
+I26
+sS'Edgemere'
+p173
+I32
+sS'Ridgewood'
+p174
+I11
+sS'Glendale'
+p175
+I2
+sS'Flushing'
+p176
+I18
+sS'Arverne'
+p177
+I29
+sS'Bay Terrace'
+p178
+I41
+sS'Holliswood'
+p179
+I12
+sS'Rockaway Beach'
+p180
+I43
+sS'Forest Hills'
+p181
+I36
+sS'Jackson Heights'
+p182
+I22
+sS'Woodhaven'
+p183
+I0
+sS'St. Albans'
+p184
+I13
+sS'Middle Village'
+p185
+I40
+sS'Astoria'
+p186
+I35
+sS'Bellerose'
+p187
+I44
+sS'Hollis Hills'
+p188
+I48
+sS'Elmhurst'
+p189
+I16
+sS'College Point'
+p190
+I45
+sS'Richmond Hill'
+p191
+I20
+sS'Laurelton'
+p192
+I17
+sS'Far Rockaway'
+p193
+I3
+sS'Long Island City'
+p194
+I42
+sS'Belle Harbor'
+p195
+I46
+sS'Jamaica Estates'
+p196
+I21
+sS'Woodside'
+p197
+I15
+sS'Corona'
+p198
+I9
+sS'Maspeth'
+p199
+I5
+sS'East Elmhurst'
+p200
+I8
+sS'Hollis'
+p201
+I14
+sS'Rego Park'
+p202
+I24
+sS'Little Neck'
+p203
+I47
+sS'Bayswater'
+p204
+I33
+sS'Cambria Heights'
+p205
+I4
+sS'South Ozone Park'
+p206
+I38
+sS'Queens Village'
+p207
+I6
+sS'Whitestone'
+p208
+I19
+sS'Jamaica'
+p209
+I23
+sS'Neponsit'
+p210
+I49
+sS'Glen Oaks'
+p211
+I30
+sS'Rosedale'
+p212
+I39
+sS'Howard Beach'
+p213
+I7
+sS'Kew Gardens Hills'
+p214
+I34
+sS'Fresh Meadows'
+p215
+I37
+sS'Ditmars Steinway'
+p216
+I31
+sS'Briarwood'
+p217
+I10
+sS'Kew Gardens'
+p218
+I1
+ss.
